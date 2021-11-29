@@ -1,7 +1,8 @@
 import jenkins
-
+username = ''
+password = ''
 # jenkins服务器链接
-server = jenkins.Jenkins('http://162.14.75.243:8080/', username='daizhengding', password='dai19960615.', timeout=30)
+server = jenkins.Jenkins('http://162.14.75.243:8080/', username=username, password=password, timeout=30)
 # 构建job名
 job_name = 'secondpipeline'
 # 获取所有的job
